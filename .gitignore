@@ -1,0 +1,75 @@
+# ============================================================
+# TNVD-SC pre-publication repository
+# Full source code remains internal until publication.
+# ============================================================
+
+# Internal source
+src/
+include/
+scripts/
+tools/
+cmake/
+configs/
+protocols/
+third_party/
+
+# ROS / CMake build artifacts
+build/
+install/
+log/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Data
+data/
+datasets/
+dataset/
+raw_data/
+derived/
+
+# Results / outputs
+results/
+outputs/
+output/
+logs/
+*.log
+
+# Point-cloud / ROS data
+*.pcd
+*.ply
+*.las
+*.laz
+*.bag
+*.db3
+*.mcap
+
+# Private sensor / GNSS metadata
+**/raw_meta/
+**/*pospac*
+**/*GNSS*
+**/*gnss*
+**/*calib*.json
+**/scan_index.tsv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
