@@ -363,10 +363,10 @@ Detailed installation instructions and third-party licensing information will be
 
 ## Authors
 
-**Jineon Kim**  
+**Jineon Kim**
 **Jhonghyun An**
 
-VIP Lab  
+VIP Lab
 Gachon University
 
 ---
